@@ -1,2 +1,2 @@
 # mlops-zoomcamp
-a
+ajupyter server list
