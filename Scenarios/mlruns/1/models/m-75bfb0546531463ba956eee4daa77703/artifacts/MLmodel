@@ -1,0 +1,23 @@
+artifact_path: /workspaces/mlops-zoomcamp/Scenarios/mlruns/1/models/m-75bfb0546531463ba956eee4daa77703/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.18
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.2
+model_id: m-75bfb0546531463ba956eee4daa77703
+model_size_bytes: 9223
+model_uuid: m-75bfb0546531463ba956eee4daa77703
+prompts: null
+run_id: febbb482c8294fe19e525ff27608d203
+utc_time_created: '2026-10-29 13:44:16.112244'
